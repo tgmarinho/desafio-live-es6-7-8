@@ -9,7 +9,7 @@ const arr = [
 ];
 
 
-const [a = { id, user }, b = { id, user }, ...c ] = arr;
+const [a, b, ...c ] = arr;
 
 console.log(a);
 console.log(b);
